@@ -1,0 +1,5 @@
+n=int(input())
+if 0.10*n > 100:
+    print(n-(0.10*n))
+else:
+    print(n-100)
