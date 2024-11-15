@@ -1,0 +1,10 @@
+def assignment(x,y,z):
+    available = z+24*60
+    required = x*y
+    if required <= available:
+        return "YES"
+    else:
+        return "NO"
+x,y,z=map(int,input().split())
+print(assignment(x,y,z))
+    
