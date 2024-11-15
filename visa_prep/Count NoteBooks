@@ -1,0 +1,5 @@
+def calculate_notes(N):
+    notes = N * 10
+    return notes
+N = int(input())
+print(calculate_notes(N))
